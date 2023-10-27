@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# ImageVoyager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ImageVoyager is a web application for exploring and discovering a wide range of images. It provides a user-friendly interface for searching and viewing images. 
 
-## Available Scripts
+## Technologies Used:
+- Javascript
+- React
+- TailwindCSS
+- Context
+- axios
+- createContext
 
-In the project directory, you can run:
+## UI:
 
-### `npm start`
+<img width="963" alt="Screen Shot 2023-10-27 at 6 52 18 PM" src="https://github.com/mansithanki/ImageVoyager/assets/44176224/c28ed1bd-161b-4738-8ce3-9c1ce0dcf5b1">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Application Link (Deployed on Netlify):
+https://jocular-sprite-109b1d.netlify.app/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Note: Unsplash API has a rate limit of 50 requests per hour. So, if it exceeds the count, results might not be fetched
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Image Search**: Users can search for images based on keywords or descriptions.
 
-### `npm run build`
+- **Responsive Design**: The application is designed to work seamlessly on various screen sizes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Dynamic Grid Layout**: Images are displayed in a responsive grid layout, adapting to different screen sizes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Custom Styling**: Tailwind CSS is used to style the application, making it easy to customize the look and feel.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Steps to run:
 
-### `npm run eject`
+These instructions will help you set up and run the project on your local machine. 
+Follow the steps below to get started:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**1. Clone the repository:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+    git clone https://github.com/mansithanki/ImageVoyager.git
+   ```
+**2. Change to the project directory:**
+    cd ImageVoyager
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**3. Install the dependencies:**
+    npm install
+   
+**4. Start the development server:**
+    npm start
+    Open your web browser and visit http://localhost:3000 to see the application running.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Research Questions
 
-## Learn More
+**1. What is the question being researched?**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The primary aim of the project was to create an effective and user-friendly image search application. 
+This project aims to explore the process of building a web application that allows users to search for images based on keywords or descriptions and retrieve relevant results.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**2. Why is it interesting?**
 
-### Code Splitting
+This project is intriguing for several reasons:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **User Engagement:** Image search applications are highly engaging for users in various contexts.
+- **Technological Exploration:** The project provides an opportunity to learn and apply modern web development technologies such as React, TailwindCSS, Javascript.
+- **AI Integration:** There's potential to integrate AI models for advanced image search, adding complexity and interest.
 
-### Analyzing the Bundle Size
+**3. How do you plan on doing it?**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The project plan includes the following steps:
 
-### Making a Progressive Web App
+- Setting up the project using Create React App.
+- Building the user interface with React components.
+- Integrating an image search API or service (Unsplash API in this scenario).
+- Implementing features for user input and search functionality.
+- Styling the application with Tailwind CSS.
+- Potentially in future, integrating AI models for advanced image search.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**4. How will you know it is doing a good job?**
 
-### Advanced Configuration
+To evaluate the project's success, following metrics could be considered:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Performance:** Monitoring speed and responsiveness for a smooth user experience.
+- **Relevance:** Evaluating the accuracy and relevance of search results.
+- **Usage Statistics:** Tracking user engagement and search query metrics.
+- **Error Handling:** Ensuring graceful error handling and meaningful error messages.
+- **User Feedback:** Collecting user feedback to ensure the application meets their needs.
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+   
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
