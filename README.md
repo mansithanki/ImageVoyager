@@ -40,13 +40,19 @@ Follow the steps below to get started:
     git clone https://github.com/mansithanki/ImageVoyager.git
    ```
 **2. Change to the project directory:**
+```bash
     cd ImageVoyager
+```
 
 **3. Install the dependencies:**
+```bash
     npm install
+```
    
 **4. Start the development server:**
+```bash
     npm start
+```
     Open your web browser and visit http://localhost:3000 to see the application running.
 
 ## Research Questions
